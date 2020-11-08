@@ -29,7 +29,7 @@ body,html {
         }
     .block1 {
         
-        height: 700px;;
+        height: 600px;;
         background-color: green;
     }
 
@@ -115,6 +115,73 @@ body,html {
                 position:absolute;
                             
                 }
+    .under2 {
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+        margin: 0px;
+        margin-top: 30px;
+        height: 200px;
+    }
+
+        .under2 > h2 {
+            width: 100%;
+            display: inline-block;
+            margin-top: 60px;
+        }
+
+        .under2 > p {
+            width: 50%;
+            margin: 0 auto;
+            }
+    
+    .under3 {
+        width: 100%;
+        height: 250px;
+        display: inline-block;
+        margin: 0px;
+
+    }
+        .left {
+            float: left;
+            margin: 0px;
+            width: 50%;
+            background-color: blue;
+            display: inline-block;
+            text-align: center;
+            height: 250px;
+        }
+
+            .left > h2 {
+                margin-top: 60px;
+                width: 100%;
+            }
+
+            .left > p {
+                width: 80%;
+                margin: 0 auto;    
+            }
+
+        .right {
+            text-align: center;
+            float: left;
+            margin: 0px;
+            width: 50%;
+            background-color: green;
+            display: inline-block; 
+            height: 250px;
+        }
+
+            .right > h2 {
+                margin-top: 60px;
+                width: 100%;
+            }
+            
+            .right > p {
+                width: 80%;
+                margin: 0 auto;
+            }
+        
     
 
             
