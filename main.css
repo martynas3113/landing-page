@@ -34,68 +34,82 @@ body,html {
     }
 
     .columns {
-        margin-left: 380px;
+        margin-left: 235px;
         display: inline-block;
+        margin-top: 40px;
     }
 
         .col1 {
-            width: 200px;
+            width: 300px;
             height: 500px;
             margin: 0px;
             margin-left: 10px;
             /* padding: 20px; */
-            background-color: yellow;
+            background-color: white;
             display: inline-block;
             
             
         }
             .block-images1 {
-                background-image: url(./block1.jpg);
+                background-image: url(./col1.jpg);
+                background-position: left;
                 height: 160px;
-                width: 200px;
+                width: 300px;
                 display: inline-block;
                 /* margin-left: 300px; */
                 position:absolute;
                 
             }
 
+            .coltext {
+                text-align: center;
+                margin-top: 200px;
+            }
+
+            .coltext > h2 {
+                margin: 0px;
+                padding-bottom: 10px;
+            }
+
+           
+
         .col2 {
-            width: 200px;
-            height: 600px;
+            width: 300px;
+            height: 500px;
             margin: 0px;
             margin-left: 10px;
             /* padding: 20px; */
-            background-color: yellow;
+            background-color: white;
             display: inline-block;
             
                 
             }
 
             .block-images2 {
-                background-image: url(./block1.jpg);
+                background-image: url(./col2.jpg);
                 height: 160px;
-                width: 200px;
+                width: 300px;
                     display: inline-block;
                 /* margin-left: 300px; */
                 position:absolute;
                     
                 }
         .col3 {
-            width: 200px;
-            height: 600px;
+            width: 300px;
+            height: 500px;
             margin: 0px;
             margin-left: 10px;
             /* padding: 20px; */
-            background-color: yellow;
+            background-color: white;
             display: inline-block;
             
                         
             }
         
             .block-images3 {
-                background-image: url(./block1.jpg);
+                background-image: url(./col3.jpg);
                 height: 160px;
-                width: 200px;
+                width: 300px;
                 display: inline-block;
                 /* margin-left: 300px; */
                 position:absolute;
